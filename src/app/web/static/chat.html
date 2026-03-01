@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat | Agentic System</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="chat-body">
+  <main class="chat-shell">
+    <header class="chat-header">
+      <div>
+        <h1>Agentic Chat</h1>
+        <p id="welcome-text" class="subtle">Connected</p>
+      </div>
+      <div class="chat-actions">
+        <button id="clear-conversation-button" class="ghost-button" type="button">Clear conversation</button>
+        <button id="new-conversation-button" class="ghost-button" type="button">New conversation</button>
+        <button id="logout-button" class="ghost-button" type="button">Log out</button>
+      </div>
+    </header>
+
+    <section id="chat-log" class="chat-log" aria-live="polite"></section>
+
+    <form id="chat-form" class="chat-form">
+      <input id="chat-input" type="text" placeholder="Ask something..." required>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <script src="/static/chat.js"></script>
+</body>
+</html>

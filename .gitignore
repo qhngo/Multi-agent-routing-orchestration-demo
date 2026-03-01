@@ -1,0 +1,65 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local settings
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Local databases and runtime state
+local_db/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Model artifacts
+models/
+
+# Packaging/build artifacts
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test/coverage/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project docs to keep local-only
+documentation/architecture.md
+documentation/function_flows.md
