@@ -1,4 +1,4 @@
-# Agentic System Skeleton
+# Multi-agent routing/orchestration demo
 
 Starter app for a local multi-agent chat backend + web UI.
 
